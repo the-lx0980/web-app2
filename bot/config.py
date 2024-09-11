@@ -9,7 +9,7 @@ class Telegram:
     API_HASH = getenv("API_HASH", "88c1b5a2a369695990bfce2ecd4fe601")
     BOT_TOKEN = getenv("BOT_TOKEN", "6737943130:AAENzY3vZdDVo6jsfvvip019IRzbp38h01U")
     PORT = int(getenv("PORT", 8080))
-    SESSION_STRING = getenv("SESSION_STRING", "BQGYpOMAR8CnerlWSNx_h66UEswxIZDoY_-SZ6BpOOgfAMshAypvLsIPFtLhCqNNyxane7ErDJ6xsAm6ELzwZ2pJ41v4QBesjVBJxkAGTIvLdqMg8f6IfZEUZi_1gftJWBjBCCy4ep-71hYX_BUIcV6YL0ZQ6arz4LjhdFsY6GNgpEAPmT1C1fgxIeUSGFdfCJV-ZdwOFvNN1JvLz_wgv3mTjjhzhziwm5RsyWUJlLYcj35_kSLIdOfJWb9Y8UeJGSAGkMU499Zk9LcL89XtvLvvsd5voesSFYrczvaJmtOLkmbBWouWaYbGmzPIJxpl2QVrzKtCbWJbOSyrg6452PpIgcIUowAAAAGpf-0jAA")
+    SESSION_STRING = getenv("SESSION_STRING", "BQGYpOMALrcLUfmTbYyEAc6t1-9SecXWMiiXcbWiQjUpOaFG6e7oYf7x0V4SExlTL-peEdrgZBzaqxWo6F36nNZY76JWy5-ll1U9NArODVT_SREX2jNMAf61IppmnCJ7HPPeDAFLMZzo1ergQ4lIzluZ1Ti208xMBJ7ycALAfv47dGI6AaTh1FrYbkrSUTqJ4LUy9b8IVnH529in5yxYgyCKNPLYd4MDTF7zq0qw3XYZ7K6jXPFsY9ArpiyCabnfAtmTE_KVyzwlEmGgXQpDBunXHBSYacxQVWB5FKT1BB3ZIvA-i1tXB_xB39CQvnJ6kuv_p0oEutKwyYDDifXEORsHUvut2QAAAAGpf-0jAA")
     BASE_URL = getenv("BASE_URL", "https://interim-sheelagh-rrrrr-88421628.koyeb.app/").rstrip('https://interim-sheelagh-rrrrr-88421628.koyeb.app/')
     DATABASE_URL = getenv("DATABASE_URL", "mongodb+srv://tabolo8539:0evqZDV4fC5fD17c@cluster0.cw8zxus.mongodb.net/?retryWrites=true&w=majority")
     AUTH_CHANNEL = [channel.strip() for channel in getenv("AUTH_CHANNEL", "-1002248276059").split(",")]
